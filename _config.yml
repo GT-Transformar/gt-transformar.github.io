@@ -22,7 +22,7 @@ title: GT Transformar
 description: >- # this means to ignore newlines until "baseurl:"
   Coletivo de pessoas trans e travestis da UFSCar
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://gt-transformar.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 lang: pt-br
 
 # Build settings
@@ -30,13 +30,14 @@ remote_theme: "jekyll/minima@8106bd4"
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-sitemap
 
 minima:
   social_links:
     - title: Instagram
       icon: instagram
       url: "https://instagram.com/gt_transformar/"
-  hide_site_feed_link: true
+  hide_site_feed_link: false
 
 
 # Exclude from processing.
