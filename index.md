@@ -6,4 +6,3 @@ layout: home
 lang: pt-br
 ---
 
-Site em construção...
